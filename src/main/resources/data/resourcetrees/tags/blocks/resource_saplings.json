@@ -1,0 +1,23 @@
+{
+	"values": [
+		"resourcetrees:bone_sapling",
+		"resourcetrees:clay_sapling",
+		"resourcetrees:coal_sapling",
+		"resourcetrees:cotton_sapling",
+		"resourcetrees:diamond_sapling",
+		"resourcetrees:dirt_sapling",
+		"resourcetrees:emerald_sapling",
+		"resourcetrees:glowstone_sapling",
+		"resourcetrees:gold_sapling",
+		"resourcetrees:gravel_sapling",
+		"resourcetrees:iron_sapling",
+		"resourcetrees:lapis_sapling",
+		"resourcetrees:netherite_sapling",
+		"resourcetrees:netherrack_sapling",
+		"resourcetrees:petrified_sapling",
+		"resourcetrees:quartz_sapling",
+		"resourcetrees:red_sand_sapling",
+		"resourcetrees:redstone_sapling",
+		"resourcetrees:sand_sapling"
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "resourcetrees",
+	"version": "1.0.0",
+	"name": "Resource Trees",
+	"description": "Adds several types of trees that produce different resources to Minecraft.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Resource-Trees#readme",
+		"issues": "https://github.com/haykam821/Resource-Trees/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.resourcetrees.Main"
+		],
+		"client": [
+			"io.github.haykam821.resourcetrees.ClientMain"
+		]
+	},
+	"license": "MIT",
+	"icon": "assets/resourcetrees/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}

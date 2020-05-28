@@ -1,0 +1,23 @@
+{
+	"values": [
+		"resourcetrees:bone_leaves",
+		"resourcetrees:clay_leaves",
+		"resourcetrees:coal_leaves",
+		"resourcetrees:cotton_leaves",
+		"resourcetrees:diamond_leaves",
+		"resourcetrees:dirt_leaves",
+		"resourcetrees:emerald_leaves",
+		"resourcetrees:glowstone_leaves",
+		"resourcetrees:gold_leaves",
+		"resourcetrees:gravel_leaves",
+		"resourcetrees:iron_leaves",
+		"resourcetrees:lapis_leaves",
+		"resourcetrees:netherite_leaves",
+		"resourcetrees:netherrack_leaves",
+		"resourcetrees:petrified_leaves",
+		"resourcetrees:quartz_leaves",
+		"resourcetrees:red_sand_leaves",
+		"resourcetrees:redstone_leaves",
+		"resourcetrees:sand_leaves"
+	]
+}

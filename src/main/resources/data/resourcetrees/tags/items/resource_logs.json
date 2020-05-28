@@ -1,0 +1,23 @@
+{
+	"values": [
+		"resourcetrees:bone_log",
+		"resourcetrees:clay_log",
+		"resourcetrees:coal_log",
+		"resourcetrees:cotton_log",
+		"resourcetrees:diamond_log",
+		"resourcetrees:dirt_log",
+		"resourcetrees:emerald_log",
+		"resourcetrees:glowstone_log",
+		"resourcetrees:gold_log",
+		"resourcetrees:gravel_log",
+		"resourcetrees:iron_log",
+		"resourcetrees:lapis_log",
+		"resourcetrees:netherite_log",
+		"resourcetrees:netherrack_log",
+		"resourcetrees:petrified_log",
+		"resourcetrees:quartz_log",
+		"resourcetrees:red_sand_log",
+		"resourcetrees:redstone_log",
+		"resourcetrees:sand_log"
+	]
+}

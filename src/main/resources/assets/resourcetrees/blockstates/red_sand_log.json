@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"axis=y": {
+			"model": "resourcetrees:block/red_sand_log"
+		},
+		"axis=z": {
+			"model": "resourcetrees:block/red_sand_log",
+			"x": 90
+		},
+		"axis=x": {
+			"model": "resourcetrees:block/red_sand_log",
+			"x": 90,
+			"y": 90
+		}
+	}
+}

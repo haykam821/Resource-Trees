@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"axis=y": {
+			"model": "resourcetrees:block/cotton_log"
+		},
+		"axis=z": {
+			"model": "resourcetrees:block/cotton_log",
+			"x": 90
+		},
+		"axis=x": {
+			"model": "resourcetrees:block/cotton_log",
+			"x": 90,
+			"y": 90
+		}
+	}
+}

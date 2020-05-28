@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"axis=y": {
+			"model": "resourcetrees:block/netherite_log"
+		},
+		"axis=z": {
+			"model": "resourcetrees:block/netherite_log",
+			"x": 90
+		},
+		"axis=x": {
+			"model": "resourcetrees:block/netherite_log",
+			"x": 90,
+			"y": 90
+		}
+	}
+}
