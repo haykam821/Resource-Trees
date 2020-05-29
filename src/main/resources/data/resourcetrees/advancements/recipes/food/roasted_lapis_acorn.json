@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"resourcetrees:roasted_lapis_acorn"
+		]
+	},
+	"criteria": {
+		"has_lapis_acorn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "resourcetrees:lapis_acorn"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "resourcetrees:roasted_lapis_acorn"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_lapis_acorn",
+			"has_the_recipe"
+		]
+	]
+}

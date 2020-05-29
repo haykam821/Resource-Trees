@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "resourcetrees:gravel_acorn"
+	},
+	"result": "resourcetrees:roasted_gravel_acorn",
+	"experience": 0.35,
+	"cookingtime": 200
+}

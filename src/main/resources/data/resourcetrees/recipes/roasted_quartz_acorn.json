@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "resourcetrees:quartz_acorn"
+	},
+	"result": "resourcetrees:roasted_quartz_acorn",
+	"experience": 0.35,
+	"cookingtime": 200
+}

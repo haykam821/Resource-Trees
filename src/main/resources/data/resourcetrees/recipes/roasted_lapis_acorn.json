@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "resourcetrees:lapis_acorn"
+	},
+	"result": "resourcetrees:roasted_lapis_acorn",
+	"experience": 0.35,
+	"cookingtime": 200
+}

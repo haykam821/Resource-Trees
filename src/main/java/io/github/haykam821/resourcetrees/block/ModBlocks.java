@@ -10,6 +10,7 @@ import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.PillarBlock;
 import net.minecraft.block.SaplingBlock;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -49,6 +50,9 @@ public enum ModBlocks {
 
 	public FlowerPotBlock pottedSaplingBlock;
 
+	public final Item acornItem;
+	public final Item roastedAcornItem;
+
 	private ModBlocks(String type, int color) {
 		this.color = color;
 
@@ -56,6 +60,10 @@ public enum ModBlocks {
 		registerLeaves(new Identifier(Main.MOD_ID, type + "_leaves"));
 		registerSapling(new Identifier(Main.MOD_ID, type + "_sapling"));
 		registerPottedSapling(new Identifier(Main.MOD_ID, "potted_" + type + "_sapling"));
+
+		// Acorns
+		this.acornItem = registerAcorn(new Identifier(Main.MOD_ID, type + "_acorn"), new FoodComponent.Builder().hunger(1).saturationModifier(0.06f).build());
+		this.roastedAcornItem = registerAcorn(new Identifier(Main.MOD_ID, "roasted_" + type + "_acorn"), new FoodComponent.Builder().hunger(3).saturationModifier(0.06f).build());
 	}
 
 	private void registerLog(Identifier id) {
@@ -91,6 +99,11 @@ public enum ModBlocks {
 		Block.Settings blockSettings = FabricBlockSettings.copy(Blocks.POTTED_OAK_SAPLING);
 		this.pottedSaplingBlock = new FlowerPotBlock(this.saplingBlock, blockSettings);
 		Registry.register(Registry.BLOCK, id, this.pottedSaplingBlock);
+	}
+
+	private Item registerAcorn(Identifier id, FoodComponent foodComponent) {
+		Item.Settings itemSettings = new Item.Settings().group(ItemGroup.FOOD).food(foodComponent);
+		return Registry.register(Registry.ITEM, id, new Item(itemSettings));
 	}
 
 	public static ModBlocks initialize() {

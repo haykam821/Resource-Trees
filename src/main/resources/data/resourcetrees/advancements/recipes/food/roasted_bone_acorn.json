@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"resourcetrees:roasted_bone_acorn"
+		]
+	},
+	"criteria": {
+		"has_bone_acorn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "resourcetrees:bone_acorn"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "resourcetrees:roasted_bone_acorn"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_bone_acorn",
+			"has_the_recipe"
+		]
+	]
+}

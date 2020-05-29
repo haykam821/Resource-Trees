@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"resourcetrees:roasted_clay_acorn_from_smoking"
+		]
+	},
+	"criteria": {
+		"has_clay_acorn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "resourcetrees:clay_acorn"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "resourcetrees:roasted_clay_acorn_from_smoking"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_clay_acorn",
+			"has_the_recipe"
+		]
+	]
+}

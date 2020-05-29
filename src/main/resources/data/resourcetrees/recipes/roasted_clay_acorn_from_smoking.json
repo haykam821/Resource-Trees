@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "resourcetrees:clay_acorn"
+	},
+	"result": "resourcetrees:roasted_clay_acorn",
+	"experience": 0.35,
+	"cookingtime": 100
+}

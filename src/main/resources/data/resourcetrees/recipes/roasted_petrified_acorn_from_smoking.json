@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "resourcetrees:petrified_acorn"
+	},
+	"result": "resourcetrees:roasted_petrified_acorn",
+	"experience": 0.35,
+	"cookingtime": 100
+}

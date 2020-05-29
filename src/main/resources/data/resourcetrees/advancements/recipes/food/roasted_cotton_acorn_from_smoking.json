@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"resourcetrees:roasted_cotton_acorn_from_smoking"
+		]
+	},
+	"criteria": {
+		"has_cotton_acorn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "resourcetrees:cotton_acorn"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "resourcetrees:roasted_cotton_acorn_from_smoking"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_cotton_acorn",
+			"has_the_recipe"
+		]
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "resourcetrees:sand_acorn"
+	},
+	"result": "resourcetrees:roasted_sand_acorn",
+	"experience": 0.35,
+	"cookingtime": 200
+}

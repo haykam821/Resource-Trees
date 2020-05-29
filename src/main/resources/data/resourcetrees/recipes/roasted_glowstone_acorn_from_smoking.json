@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "resourcetrees:glowstone_acorn"
+	},
+	"result": "resourcetrees:roasted_glowstone_acorn",
+	"experience": 0.35,
+	"cookingtime": 100
+}

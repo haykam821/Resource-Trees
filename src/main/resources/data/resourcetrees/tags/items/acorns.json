@@ -1,0 +1,24 @@
+{
+	"values": [
+		"#resourcetrees:roasted_acorns",
+		"resourcetrees:bone_acorn",
+		"resourcetrees:clay_acorn",
+		"resourcetrees:coal_acorn",
+		"resourcetrees:cotton_acorn",
+		"resourcetrees:diamond_acorn",
+		"resourcetrees:dirt_acorn",
+		"resourcetrees:emerald_acorn",
+		"resourcetrees:glowstone_acorn",
+		"resourcetrees:gold_acorn",
+		"resourcetrees:gravel_acorn",
+		"resourcetrees:iron_acorn",
+		"resourcetrees:lapis_acorn",
+		"resourcetrees:netherite_acorn",
+		"resourcetrees:netherrack_acorn",
+		"resourcetrees:petrified_acorn",
+		"resourcetrees:quartz_acorn",
+		"resourcetrees:red_sand_acorn",
+		"resourcetrees:redstone_acorn",
+		"resourcetrees:sand_acorn"
+	]
+}

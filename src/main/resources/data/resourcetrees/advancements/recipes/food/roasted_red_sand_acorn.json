@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"resourcetrees:roasted_red_sand_acorn"
+		]
+	},
+	"criteria": {
+		"has_red_sand_acorn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "resourcetrees:red_sand_acorn"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "resourcetrees:roasted_red_sand_acorn"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_red_sand_acorn",
+			"has_the_recipe"
+		]
+	]
+}

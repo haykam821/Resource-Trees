@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "resourcetrees:diamond_acorn"
+	},
+	"result": "resourcetrees:roasted_diamond_acorn",
+	"experience": 0.35,
+	"cookingtime": 200
+}

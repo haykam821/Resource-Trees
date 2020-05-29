@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"resourcetrees:roasted_petrified_acorn_from_smoking"
+		]
+	},
+	"criteria": {
+		"has_petrified_acorn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "resourcetrees:petrified_acorn"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "resourcetrees:roasted_petrified_acorn_from_smoking"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_petrified_acorn",
+			"has_the_recipe"
+		]
+	]
+}

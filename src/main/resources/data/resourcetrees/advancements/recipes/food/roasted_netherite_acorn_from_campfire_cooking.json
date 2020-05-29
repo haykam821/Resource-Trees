@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"resourcetrees:roasted_netherite_acorn_from_campfire_cooking"
+		]
+	},
+	"criteria": {
+		"has_netherite_acorn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "resourcetrees:netherite_acorn"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "resourcetrees:roasted_netherite_acorn_from_campfire_cooking"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_netherite_acorn",
+			"has_the_recipe"
+		]
+	]
+}

@@ -22,7 +22,7 @@ public class ClientMain implements ClientModInitializer {
 			}, modBlock.leavesBlock, modBlock.logBlock, modBlock.saplingBlock, modBlock.pottedSaplingBlock);
 			ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
 				return modBlock.color;
-			}, modBlock.leavesItem, modBlock.logItem, modBlock.saplingItem);
+			}, modBlock.leavesItem, modBlock.logItem, modBlock.saplingItem, modBlock.acornItem, modBlock.roastedAcornItem);
 		}
 	}
 }

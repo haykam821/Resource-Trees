@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "resourcetrees:redstone_acorn"
+	},
+	"result": "resourcetrees:roasted_redstone_acorn",
+	"experience": 0.35,
+	"cookingtime": 200
+}

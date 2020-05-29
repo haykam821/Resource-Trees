@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"resourcetrees:roasted_dirt_acorn_from_campfire_cooking"
+		]
+	},
+	"criteria": {
+		"has_dirt_acorn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "resourcetrees:dirt_acorn"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "resourcetrees:roasted_dirt_acorn_from_campfire_cooking"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_dirt_acorn",
+			"has_the_recipe"
+		]
+	]
+}

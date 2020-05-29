@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "resourcetrees:netherite_acorn"
+	},
+	"result": "resourcetrees:roasted_netherite_acorn",
+	"experience": 0.35,
+	"cookingtime": 100
+}

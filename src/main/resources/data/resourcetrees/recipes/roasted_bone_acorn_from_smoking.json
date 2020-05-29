@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "resourcetrees:bone_acorn"
+	},
+	"result": "resourcetrees:roasted_bone_acorn",
+	"experience": 0.35,
+	"cookingtime": 100
+}

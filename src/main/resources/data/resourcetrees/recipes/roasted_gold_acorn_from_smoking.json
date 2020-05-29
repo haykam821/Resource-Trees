@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "resourcetrees:gold_acorn"
+	},
+	"result": "resourcetrees:roasted_gold_acorn",
+	"experience": 0.35,
+	"cookingtime": 100
+}

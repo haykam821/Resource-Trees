@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "resourcetrees:emerald_acorn"
+	},
+	"result": "resourcetrees:roasted_emerald_acorn",
+	"experience": 0.35,
+	"cookingtime": 100
+}

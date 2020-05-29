@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"resourcetrees:roasted_gold_acorn_from_campfire_cooking"
+		]
+	},
+	"criteria": {
+		"has_gold_acorn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "resourcetrees:gold_acorn"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "resourcetrees:roasted_gold_acorn_from_campfire_cooking"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_gold_acorn",
+			"has_the_recipe"
+		]
+	]
+}
