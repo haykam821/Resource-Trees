@@ -1,0 +1,23 @@
+{
+	"values": [
+		"resourcetrees:potted_bone_sapling",
+		"resourcetrees:potted_clay_sapling",
+		"resourcetrees:potted_coal_sapling",
+		"resourcetrees:potted_cotton_sapling",
+		"resourcetrees:potted_diamond_sapling",
+		"resourcetrees:potted_dirt_sapling",
+		"resourcetrees:potted_emerald_sapling",
+		"resourcetrees:potted_glowstone_sapling",
+		"resourcetrees:potted_gold_sapling",
+		"resourcetrees:potted_gravel_sapling",
+		"resourcetrees:potted_iron_sapling",
+		"resourcetrees:potted_lapis_sapling",
+		"resourcetrees:potted_netherite_sapling",
+		"resourcetrees:potted_netherrack_sapling",
+		"resourcetrees:potted_petrified_sapling",
+		"resourcetrees:potted_quartz_sapling",
+		"resourcetrees:potted_red_sand_sapling",
+		"resourcetrees:potted_redstone_sapling",
+		"resourcetrees:potted_sand_sapling"
+	]
+}

@@ -14,11 +14,12 @@ public class ClientMain implements ClientModInitializer {
 			BlockRenderLayerMap.INSTANCE.putBlock(modBlock.logBlock, RenderLayer.getCutoutMipped());
 			BlockRenderLayerMap.INSTANCE.putBlock(modBlock.leavesBlock, RenderLayer.getCutoutMipped());
 			BlockRenderLayerMap.INSTANCE.putBlock(modBlock.saplingBlock, RenderLayer.getCutout());
+			BlockRenderLayerMap.INSTANCE.putBlock(modBlock.pottedSaplingBlock, RenderLayer.getCutout());
 
 			// Color providers
 			ColorProviderRegistry.BLOCK.register((blockState, view, pos, tintIndex) -> {
 				return modBlock.color;
-			}, modBlock.leavesBlock, modBlock.logBlock, modBlock.saplingBlock);
+			}, modBlock.leavesBlock, modBlock.logBlock, modBlock.saplingBlock, modBlock.pottedSaplingBlock);
 			ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
 				return modBlock.color;
 			}, modBlock.leavesItem, modBlock.logItem, modBlock.saplingItem);

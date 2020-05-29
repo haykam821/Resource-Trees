@@ -1,0 +1,6 @@
+{
+	"parent": "block/potted_fern",
+	"textures": {
+		"plant": "block/oak_sapling"
+	}
+}

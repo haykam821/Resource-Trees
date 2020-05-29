@@ -5,6 +5,7 @@ import io.github.haykam821.resourcetrees.block.sapling.ResourceSaplingBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.FlowerPotBlock;
 import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.PillarBlock;
 import net.minecraft.block.SaplingBlock;
@@ -46,12 +47,15 @@ public enum ModBlocks {
 	public SaplingBlock saplingBlock;
 	public BlockItem saplingItem;
 
+	public FlowerPotBlock pottedSaplingBlock;
+
 	private ModBlocks(String type, int color) {
 		this.color = color;
 
 		registerLog(new Identifier(Main.MOD_ID, type + "_log"));
 		registerLeaves(new Identifier(Main.MOD_ID, type + "_leaves"));
 		registerSapling(new Identifier(Main.MOD_ID, type + "_sapling"));
+		registerPottedSapling(new Identifier(Main.MOD_ID, "potted_" + type + "_sapling"));
 	}
 
 	private void registerLog(Identifier id) {
@@ -81,6 +85,12 @@ public enum ModBlocks {
 		Item.Settings itemSettings = new Item.Settings().group(ItemGroup.DECORATIONS);
 		this.saplingItem = new BlockItem(this.saplingBlock, itemSettings);
 		Registry.register(Registry.ITEM, id, this.saplingItem);
+	}
+
+	private void registerPottedSapling(Identifier id) {
+		Block.Settings blockSettings = FabricBlockSettings.copy(Blocks.POTTED_OAK_SAPLING);
+		this.pottedSaplingBlock = new FlowerPotBlock(this.saplingBlock, blockSettings);
+		Registry.register(Registry.BLOCK, id, this.pottedSaplingBlock);
 	}
 
 	public static ModBlocks initialize() {
