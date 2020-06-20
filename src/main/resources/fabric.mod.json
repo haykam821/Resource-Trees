@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "resourcetrees",
-	"version": "1.0.0",
+	"version": "${version}",
 	"name": "Resource Trees",
 	"description": "Adds several types of trees that produce different resources to Minecraft.",
 	"authors": [
