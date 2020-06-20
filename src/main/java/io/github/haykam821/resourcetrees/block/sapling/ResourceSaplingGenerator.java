@@ -25,7 +25,7 @@ public class ResourceSaplingGenerator extends OakSaplingGenerator {
 		SimpleBlockStateProvider logProvider = new SimpleBlockStateProvider(logBlock.getDefaultState());
 		SimpleBlockStateProvider leavesProvider = new SimpleBlockStateProvider(leavesBlock.getDefaultState());
 
-		this.treeConfig = (new TreeFeatureConfig.Builder(logProvider, leavesProvider, new BlobFoliagePlacer(2, 0, 0, 0, 3), new StraightTrunkPlacer(4, 2, 0), new TwoLayersFeatureSize(1, 0, 1))).method_27374().build();
+		this.treeConfig = (new TreeFeatureConfig.Builder(logProvider, leavesProvider, new BlobFoliagePlacer(2, 0, 0, 0, 3), new StraightTrunkPlacer(4, 2, 0), new TwoLayersFeatureSize(1, 0, 1))).ignoreVines().build();
 		this.beehiveTreeConfig = this.treeConfig.setTreeDecorators(ImmutableList.of(new BeehiveTreeDecorator(0.05f)));
 	}
 
